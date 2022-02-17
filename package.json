@@ -1,0 +1,26 @@
+{
+  "name": "hexo-next-tag-plus",
+  "version": "0.0.1",
+  "description": "Tag Plugin for theme-next",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "keywords": [
+    "hexo",
+    "theme-next"
+  ],
+  "author": "qidaink",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
