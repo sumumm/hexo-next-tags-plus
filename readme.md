@@ -1,6 +1,7 @@
 # <p align="center"><font size=5>自用NexT主题标签外挂插件</font></p>
 
 【个人主页】
+
 <table>
     <tr>
         <td align="center" width=150px>GitHub Pages</td>
@@ -17,7 +18,8 @@
 </table>
 
 【说明】
-原作者项目插件为butterfly主题，而自己使用的是NexT主题，所以folk后进行了修改，以供自己学习使用。如有需求，还请使用原作者插件(hexo-butterfly-tag-plugins-plus@1.0.12)。
+
+&emsp;&emsp;原作者项目插件为`butterfly`主题，而自己使用的是`NexT`主题，所以`folk`后进行了修改裁剪，仅供自己学习使用。如有需求，还请使用原作者插件(`hexo-butterfly-tag-plugins-plus@1.0.12`)。
 
 - 原作者插件项目
 
@@ -50,3 +52,43 @@
     </tr>
 </table>
 
+【支持标签】
+
+&emsp;&emsp;以下为自己修改过后支持的功能，店长原版插件标签挺多的，我只留下了自己用得到的几个。还是那句话，有需要的话就用店长原版插件，本插件仅供自己学习使用。
+
+- 行内文本样式 `text`
+
+- 行内文本 `span`
+
+- 段落文本 `p`
+
+- 复选列表 `checkbox`
+
+- 单选列表 `radio`
+
+- 时间轴 `timeline`
+
+- `Github` 卡片 `ghcard`
+
+- 折叠框 `folding`
+
+- 分栏 `tab`
+
+- 上标标签 `tip`
+
+- 按钮 `btns`
+
+【安装与配置】
+
+```yml
+# ------------------------------------------------
+# Instructions: tag-plus 标签外挂加强版
+# Plugins: npm install hexo-next-tag-plus --save
+# ------------------------------------------------
+# [blogRoot]/_config.next.yml 或者 [blogRoot]/_config.yml 添加以下内容
+TagPlus:
+  enable: true   # 插件开关
+  priority: 5    # 过滤器优先级
+  CDN:
+    tag_plus: https://npm.elemecdn.com/hexo-next-tag-plus@latest/lib/tag_plus.css
+```
