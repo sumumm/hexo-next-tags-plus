@@ -19,7 +19,7 @@
 
 【说明】
 
-&emsp;&emsp;原作者项目插件为`butterfly`主题，而自己使用的是`NexT`主题，所以`folk`后进行了修改裁剪，仅供自己学习使用。如有需求，还请使用原作者插件(`hexo-butterfly-tag-plugins-plus@1.0.12`)。
+&emsp;&emsp;原作者项目插件为`butterfly`主题，而自己使用的是`NexT`主题，所以`folk`后进行了修改裁剪，仅供自己学习使用。如有需求，还请使用原作者插件(我当时用的版本是【`hexo-butterfly-tag-plugins-plus@1.0.12`】，最后一次提交的版本号为【`1.0.12，剔除无效属性：d3285167987d445653eab05f49685dd7825bf740`】)。
 
 - 原作者插件项目
 
