@@ -1,6 +1,6 @@
 {
   "name": "hexo-next-tag-plus",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Tag Plugin for theme-next",
   "main": "index.js",
   "scripts": {
