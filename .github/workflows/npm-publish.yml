@@ -4,22 +4,23 @@
 name: Node.js Package
 
 on:
+  push:
+    branches: [master]
   release:
     types: [created]
 
 jobs:
-  build:
+  sumu-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - run: npm ci
-      - run: npm test
+      - uses: actions/checkout@v3  # 拉取分支，这里就是 git@github.com:sumumm/hexo-next-tags-plus.git 的内容了
+      - name: 打印当前路径
+        run: |
+          pwd
+          ls -alh
 
   publish-npm:
-    needs: build
+    needs: sumu-test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -30,4 +31,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_ACCESS}} # 有了个人令牌才能免除登录
