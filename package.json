@@ -1,6 +1,6 @@
 {
   "name": "hexo-next-tag-plus",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "description": "Tag Plugin for theme-next",
   "main": "index.js",
   "scripts": {
@@ -17,10 +17,10 @@
     "hexo",
     "theme-next"
   ],
-  "author": "qidaink",
+  "author": "sumumm",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qidaink/hexo-next-tag-plus"
+    "url": "https://github.com/sumumm/hexo-next-tag-plus"
   }
 }

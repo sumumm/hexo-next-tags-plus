@@ -6,13 +6,13 @@
     <tr>
         <td align="center" width=150px>GitHub Pages</td>
         <td align="left" width=450px>
-            <a href="https://qidaink.github.io/" target="_blank">https://qidaink.github.io/</a>
+            <a href="https://sumumm.github.io/" target="_blank">https://sumumm.github.io/</a>
         </td>
     </tr>
     <tr>
         <td align="center" width=150px>Gitee Pages</td>
         <td align="left" >
-            <a href="https://qidaink.gitee.io/" target="_blank">https://qidaink.gitee.io/</a>
+            <a href="https://sumumm.gitee.io/" target="_blank">https://sumumm.gitee.io/</a>
         </td>
     </tr>
 </table>
